@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>College alumni Forum</title>
+  <link rel="icon" href="alumni.ico">
+  <link rel="stylesheet" href="css/styling.css">
+</head>
+  <div id="progressbar"></div>
+  <div id="scrollpath"></div>
+<body>
+  <div class="background">
+
+
+    <div class="topnav">
+
+      <form class="Search" action="index.html" method="post">
+        <input type="text" placeholder="Search.." name="search">
+      </form>
+      <a href="Alm.html">Alumni meetings</a>
+      <a href="About us.html">About</a>
+      <a href="contact.html">Contact us</a>
+      <a href="index.html">Home</a>
+      <a  class="active"href="index.html">Alumni Forum</a>
+
+    </div>
+
+    <section class="container-fluid">
+      <h1 style="text-align:center;color:black;">College Alumni Forum</h1>
+        <hr style="border-style: none;height: 60px;">
+
+      <p class="tcsc" style="font-size:20px;color:black;">The TCSC alumni association was formed in 2002, It enable our ex-students to keep in touch with one another, and it gives our ex-students an opportunity of helping one another and of
+        expressing their loyalty for
+        the college.</p>
+        <hr style="border-style: none;height: 60px;">
+      <h1 style="color:black;"> Aim & Objective of Alumni Association:<br></h1>
+
+      <p class="tcsc">To interact with students, staff, faculty and with one another.
+        To participate in activities contributing to improvement of infrastructure& Academic activities of TCSC.
+        Alumni Assisting alumni on technical problems.
+        To decide prizes and scholarships for meritorious students, and financial aid for the poor and deserving students of TCSC.
+        To communicate the activities of the Institution and alumni.
+        Any other activities that the general body may decide from time to time..</p>
+        <hr style="border-style: none;height: 88px;">
+    </section>
+
+
+
+    <div class="linked-list">
+      <img class="img2" src="images/alumniimg.png" alt="alumni">
+    </div>
+    <h1 style="color:black;">The strategic objectives of this Alumni Forums are the following:<br></h1>
+    <div class="lists1">
+      <li style="font-size:24px;color:black">Enable alumni networking across a wide range of promotions</li>
+      <li style="font-size:24px;color:black">Enhance academic identity, reputation, global presence</li>
+      <li style="font-size:24px;color:black">Align with the School’s vision, strategy and geographic priorities</li>
+      <li style="font-size:24px;color:black">Reinforce our commitment to lifelong learning</li>
+      <li style="font-size:24px;color:black">Showcase top faculty and research</li>
+      <li style="font-size:24px;color:black">Engage with local and regional business leaders</li>
+      <hr style="border-style: none;height: 100px;">
+    </div>
+
+  </div>
+  <script type="text/javascript">
+  let progress = document.getElementById('progressbar');
+  let totHeight = document.body.scrollHeight - window.innerHeight;
+  window.onscroll = function(){
+    let progressHeight = (window.pageYOffset / totHeight) * 100;
+    progress.style.height = progressHeight + "%";
+  }
+  </script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</div>
+<div class="footer">
+<footer align="center" style="color:black">&copy;Copyright 2021 KP<br>
+  <div class="links">
+            <div class="facebook">
+              <i class="fab fa-facebook-f"></a>Facebook</span></i>
+            </div>
+  <div class="instagram">
+              <i class="fab fa-instagram"><span>Instagram</span></i>
+            </div>
+  </div>
+  <div class="signup">
+  Don't have account?
+            <a href="contact.html">Signup Now</a>
+          </div>
+</footer>
+
+</html>
